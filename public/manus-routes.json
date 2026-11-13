@@ -1,0 +1,10 @@
+{
+  "routes": [
+    { "path": "/", "title": "Encontre o Zimbábue no mapa" },
+    { "path": "/zimbabue", "title": "Zimbábue — O Grande Celeiro de Pedra" },
+    { "path": "/historia", "title": "História do Zimbábue" },
+    { "path": "/cultura", "title": "Cultura do Zimbábue" },
+    { "path": "/culinaria", "title": "Culinária do Zimbábue" },
+    { "path": "/paisagens", "title": "Paisagens do Zimbábue" }
+  ]
+}
