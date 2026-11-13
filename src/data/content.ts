@@ -1,6 +1,6 @@
 export type Photo = { src: string; alt: string };
 
-export const photo = (name: string): string => `/photos/${name}.webp`;
+export const photo = (name: string): string => `${import.meta.env.BASE_URL}photos/${name}.webp`;
 
 export const STATS = [
   { label: "Capital", value: "Harare" },

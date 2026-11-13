@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { BrowserRouter, Outlet, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, HashRouter, Outlet, Route, Routes, useLocation } from "react-router-dom";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Culinaria } from "./pages/Culinaria";
@@ -34,8 +34,10 @@ function Layout() {
 }
 
 export default function App() {
+  const Router = import.meta.env.VITE_GITHUB_PAGES === "true" ? HashRouter : BrowserRouter;
+
   return (
-    <BrowserRouter>
+    <Router>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Entrance />} />
@@ -48,6 +50,6 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
