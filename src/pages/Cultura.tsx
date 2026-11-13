@@ -157,6 +157,25 @@ export function Cultura() {
                 levados durante a colonização e começaram a voltar ao país nos últimos anos.
               </p>
             </div>
+            <figure
+              style={{
+                margin: "1.8rem 0 0",
+                display: "grid",
+                gridTemplateColumns: "132px 1fr",
+                gap: "1.1rem",
+                alignItems: "center",
+              }}
+            >
+              <img
+                src={photo("bird")}
+                alt="Silhueta do pássaro do Zimbábue, escultura em pedra-sabão, sobre fundo escuro"
+                loading="lazy"
+                style={{ borderRadius: 14, aspectRatio: "4 / 3", objectFit: "cover" }}
+              />
+              <figcaption style={{ fontSize: "0.85rem", color: "var(--ink-soft)", lineHeight: 1.5 }}>
+                O pássaro de pedra-sabão, um dos oito encontrados no Grande Zimbábue, virou o emblema do país.
+              </figcaption>
+            </figure>
           </Reveal>
         </div>
       </section>
