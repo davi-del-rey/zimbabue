@@ -32,7 +32,6 @@ export function Culinaria() {
             <img
               src={photo("sadza")}
               alt="Mão moldando sadza em um prato colorido com folhas verdes e peixe grelhado"
-              fetchPriority="high"
             />
             <figcaption className="hero-media__caption">Sadza, muriwo e kapenta: o almoço clássico</figcaption>
           </figure>

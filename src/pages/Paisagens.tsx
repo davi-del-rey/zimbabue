@@ -42,7 +42,6 @@ export function Paisagens() {
             <img
               src={photo("vic-falls-pano")}
               alt="Vista aérea de Victoria Falls com o rio Zambeze e a névoa da queda"
-              fetchPriority="high"
             />
             <figcaption className="hero-media__caption">Mosi-oa-Tunya, a “fumaça que troveja”</figcaption>
           </figure>

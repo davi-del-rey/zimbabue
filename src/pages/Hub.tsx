@@ -19,7 +19,6 @@ export function Hub() {
           <img
             src={photo("gz-aerial")}
             alt="Vista aérea do Grande Zimbábue ao pôr do sol, com muralhas de granito"
-            fetchPriority="high"
           />
         </motion.div>
         <div className="hub-hero__veil" />

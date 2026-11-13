@@ -32,7 +32,6 @@ export function Historia() {
             <img
               src={photo("gz-overview")}
               alt="Vista aérea das muralhas do Grande Zimbábue no planalto"
-              fetchPriority="high"
             />
             <figcaption className="hero-media__caption">Grande Zimbábue, Patrimônio Mundial da UNESCO</figcaption>
           </figure>

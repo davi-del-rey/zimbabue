@@ -48,7 +48,7 @@ export function Cultura() {
       <div className="container-x">
         <Reveal>
           <figure className="hero-media" style={{ margin: 0, aspectRatio: "16 / 7" }}>
-            <img src={photo("mbira-woman")} alt="Mulher sentada tocando mbira em um sofá" fetchPriority="high" />
+            <img src={photo("mbira-woman")} alt="Mulher sentada tocando mbira em um sofá" />
             <figcaption className="hero-media__caption">Mbira dzavadzimu, a “mbira dos ancestrais”</figcaption>
           </figure>
         </Reveal>
